@@ -6,3 +6,7 @@ function printVolumeCone(height , radius){
   let result = (1/3) *3.14 * radius * height
   console.log("Объем конуса равен " + result );
 }
+
+function printLengthStr (str){
+  console.log(" Длина строки равна  " + str.length);
+}
