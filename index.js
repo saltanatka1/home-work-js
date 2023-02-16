@@ -19,3 +19,7 @@ function evenOrOdd (number){
     console.log(number + " число - не четное");
   }
 }
+
+function getSquareNumber (number) {
+  return "Квадрат этого числа равен  " + number ** 2;
+}
