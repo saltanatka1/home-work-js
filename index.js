@@ -10,3 +10,12 @@ function printVolumeCone(height , radius){
 function printLengthStr (str){
   console.log(" Длина строки равна  " + str.length);
 }
+
+function evenOrOdd (number){
+  if (number % 2 === 0 ){
+    console.log(number + " число - четное");
+  }
+  else {
+    console.log(number + " число - не четное");
+  }
+}
