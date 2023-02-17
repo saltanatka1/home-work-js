@@ -27,3 +27,8 @@ function getSquareNumber (number) {
 function getRootOfANumber(number) {
   return "Корень этого числа равен  " + number ** (1/2);
 }
+
+function getPerimetrPentagon (a , b , c  , d , e) {
+  let result =  a + b + c + d + e;
+  return "Периметр пятиугольника равен " + result; 
+}
