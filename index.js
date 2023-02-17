@@ -90,3 +90,8 @@ let numbers = ["one", "two", "three"];
 for (let i = numbers.length -1 ; i >= 0 ; i--) {
   console.log(numbers[i]);
 }
+
+let names = ["Aruuke", "Saltanat","Samat"];
+for (let i = 0; i < names.length; i++){
+  console.log("Hello " + names[i]);
+}
