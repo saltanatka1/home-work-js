@@ -67,3 +67,8 @@ for (let i = 1; i <= 15; i++) {
     console.log(i);
   }
 }
+
+
+let str = ["apple", "strawberry","pineapple"];
+str.unshift("music", "ice");
+str.push("dog" , "car", "bird");
