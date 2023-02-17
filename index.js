@@ -42,3 +42,9 @@ for (let i = 1; i <= 8; i++) {
   total = total * i
 }  
 console.log( "8! = " + total);
+
+square = 1;
+for (let i = 1; i <= 10; i++) {
+  square = i ** 2;
+  console.log( square);
+}  
