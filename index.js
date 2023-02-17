@@ -82,3 +82,6 @@ for (let i = 0; i < num.length; i++) {
 }  
 console.log( total);
 
+let string =  ["I", "like", "to", "eat!"];
+let sentence =  myArrayy.join(" ");
+console.log(sentence);
