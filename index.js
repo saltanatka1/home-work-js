@@ -83,5 +83,10 @@ for (let i = 0; i < num.length; i++) {
 console.log( total);
 
 let string =  ["I", "like", "to", "eat!"];
-let sentence =  myArrayy.join(" ");
+let sentence =  string.join(" ");
 console.log(sentence);
+
+let numbers = ["one", "two", "three"];
+for (let i = numbers.length -1 ; i >= 0 ; i--) {
+  console.log(numbers[i]);
+}
