@@ -32,3 +32,7 @@ function getPerimetrPentagon (a , b , c  , d , e) {
   let result =  a + b + c + d + e;
   return "Периметр пятиугольника равен " + result; 
 }
+
+for (let i = 0; i <= 33; i+=3) {
+  console.log(i);
+}
