@@ -23,3 +23,7 @@ function evenOrOdd (number){
 function getSquareNumber (number) {
   return "Квадрат этого числа равен  " + number ** 2;
 }
+
+function getRootOfANumber(number) {
+  return "Корень этого числа равен  " + number ** (1/2);
+}
