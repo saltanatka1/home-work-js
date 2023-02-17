@@ -54,3 +54,10 @@ for (let i = 1; i <= 25; i++) {
   total = total + i
 }  
 console.log( total);
+
+
+for (let i = 0; i <= 20; i++) {
+  if (i % 2 === 0 ) {
+    console.log(i);
+  }
+}
