@@ -3,7 +3,7 @@ function printname(firstName , lastName){
 }
 
 function printVolumeCone(height , radius){
-  let result = (1/3) *3.14 * radius * height
+  let result = (1/3) * 3.14 * (radius**2) * height
   console.log("Объем конуса равен " + result );
 }
 
@@ -72,3 +72,13 @@ for (let i = 1; i <= 15; i++) {
 let str = ["apple", "strawberry","pineapple"];
 str.unshift("music", "ice");
 str.push("dog" , "car", "bird");
+
+let num = [2, 3, 4, 5 , 6, 8, 78];
+total = 0;
+for (let i = 0; i < num.length; i++) {
+  if (num[i] % 2 === 0){
+    total += num[i];
+  }
+}  
+console.log( total);
+
