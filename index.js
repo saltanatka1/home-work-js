@@ -96,7 +96,7 @@ for (let i = 0; i < names.length; i++){
   console.log("Hello " + names[i]);
 }
 
-let num1 = [2 ,5 , 4 ,6 ,7 ,3];
+let num1 = [2 , 3, 4 ,5];
 for (let i = 0; i < num1.length; i++){
   let result = num1[i]**2;
   console.log(result);
